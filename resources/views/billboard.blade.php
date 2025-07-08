@@ -96,7 +96,7 @@
 
             <div class="bg-white rounded-lg shadow-md p-4 flex flex-col h-full border border-slate-200">
                 <h3 class="text-lg font-semibold text-center mb-2 text-slate-800">Pos Kesehatan STAR</h3>
-                <img src="https://via.placeholder.com/400x250.png/d1d5db/1f2937?Text=Pos+Kesehatan" alt="Pemeriksaan Kesehatan" class="w-full rounded-md object-cover flex-shrink-0">
+                <img src="{{ asset('images/medical.jpg') }}" alt="Pemeriksaan Kesehatan" class="w-full h-40 rounded-md object-cover flex-shrink-0">
                 <ul class="mt-3 list-disc list-inside space-y-1 text-sm flex-grow font-medium text-slate-600">
                     <li>Pemeriksaan Kesehatan</li>
                     <li>Screening Kesehatan</li>
